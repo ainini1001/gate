@@ -85,9 +85,9 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "198.41.209.19:443,198.41.208.154:443,172.67.167.83:443,104.19.192.79:443,104.17.168.141:443,104.16.106.79:443,172.64.154.194:443,"
-        "104.17.156.122:443,104.16.248.98:443,104.18.35.197:443,104.18.40.145:443,104.19.88.24:443,104.16.205.248:443,"
-        "162.159.160.3:443,172.64.147.120:443,104.16.155.113:443,104.19.156.239:443,104.17.106.8:443,104.17.184.63:443",
+        "bestcf.030101.xyz:443,cf.godns.cc:443,666.cf.cname.vvhan.com:443,cfsaas.080112.xyz:443,cfyx.qdqqd.com:443,yg8.ygkkk.dpdns.org:443,111.cf.cname.vvhan.com:443,"
+        "comet57.cf.090227.xyz:443,www.galgamex.net:443,yx.cf.090227.xyz:443,youxuan.cf.090227.xyz:443,vip.cf.3666888.xyz:443,cfip.cfcdn.vip:443,"
+        "speed.marisalnc.com:443,xn--b6gac.eu.org:443,www.vastnovel.com:443,cf.92555.xyz:443,video.ouo.chat:443,gh-proxy.com:443,www.carousell.sg:443",
     ).split(",")
     if h.strip()
 ]
