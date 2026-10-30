@@ -85,9 +85,10 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "bestcf.030101.xyz:443,cf.godns.cc:443,666.cf.cname.vvhan.com:443,cfsaas.080112.xyz:443,cfyx.qdqqd.com:443,yg8.ygkkk.dpdns.org:443,111.cf.cname.vvhan.com:443,"
-        "comet57.cf.090227.xyz:443,www.galgamex.net:443,yx.cf.090227.xyz:443,youxuan.cf.090227.xyz:443,vip.cf.3666888.xyz:443,cfip.cfcdn.vip:443,"
-        "speed.marisalnc.com:443,xn--b6gac.eu.org:443,www.vastnovel.com:443,cf.92555.xyz:443,video.ouo.chat:443,gh-proxy.com:443,www.carousell.sg:443",
+        "[2606:4700:5a:feb4:a875:2efc:9f92:52b8]:443,[2606:4700:52:8db2:1d09:6c9c:11b6:a6ec]:443,"
+        "[2606:4700:5a:3e1f:9d58:5a6c:fc39:4abe]:443,[2606:4700:57:3159:ab8b:4a2f:cbf8:ceea]:443,[2606:4700:5a:5bd0:e8a1:6e45:f286:8e09]:443,"
+        "[2606:4700:5a:2005:1593:9125:57cb:52a7]:443,[2606:4700:52:aef7:638a:acc4:2358:853f]:443,[2606:4700:52:4303:4029:5b71:de8c:6c24]:443,"
+        "[2606:4700:5a:826d:1990:edb1:e2a8:1774]:443,[2a06:98c1:3109:d1da:b768:2020:fa:71f9]:443,",
     ).split(",")
     if h.strip()
 ]
