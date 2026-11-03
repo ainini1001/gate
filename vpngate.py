@@ -85,10 +85,9 @@ EDGE_HOSTS = [
     h.strip()
     for h in os.environ.get(
         "EDGE_HOSTS",
-        "[2606:4700:5a:feb4:a875:2efc:9f92:52b8]:443,[2606:4700:52:8db2:1d09:6c9c:11b6:a6ec]:443,"
-        "[2606:4700:5a:3e1f:9d58:5a6c:fc39:4abe]:443,[2606:4700:57:3159:ab8b:4a2f:cbf8:ceea]:443,[2606:4700:5a:5bd0:e8a1:6e45:f286:8e09]:443,"
-        "[2606:4700:5a:2005:1593:9125:57cb:52a7]:443,[2606:4700:52:aef7:638a:acc4:2358:853f]:443,[2606:4700:52:4303:4029:5b71:de8c:6c24]:443,"
-        "[2606:4700:5a:826d:1990:edb1:e2a8:1774]:443,[2a06:98c1:3109:d1da:b768:2020:fa:71f9]:443,",
+        "saas.sin.fan:443,cdn.204910.best:443,www.mfyx.cn:443,p.etime.vip:443,cdn.ctn32.us.kg:443,cf.877774.xyz:443,spring.io:443,"
+        "cf.nyanya.moe:443,www.sloomb.com:443,op.chinwa.eu.cc:443,www.leics.police.uk:443,securecircle.com:443,www.shopify.com:443,"
+        "www.carousell.sg:443,www.dbs.com.sg:443,openai.com:443,linear.app:443,www.bilibili.com:443,uspto.gov:443,www.vmware.com:443",
     ).split(",")
     if h.strip()
 ]
